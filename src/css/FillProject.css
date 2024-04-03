@@ -1,0 +1,76 @@
+.ProjectFill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 100%; /* Adjust as necessary */
+  height: 100vh;
+  margin: auto;
+  background-color: #ffffff; /* Bright and clean background */
+  padding: 2% 20px; /* Adjusted padding for a more balanced spacing */
+  border-radius: 8px; /* Softened corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+  overflow-y: auto; /* Ensures content is scrollable if it overflows */
+}
+
+.ProjectFill label {
+  display: block;
+  margin-bottom: 10px; /* Increased spacing for better readability */
+  color: #333333; /* Slightly darker for contrast */
+  font-size: 16px; /* Larger font size for better visibility */
+}
+
+.ProjectFill input[type="text"],
+textarea {
+  width: 100%; /* Full width for a more fluid layout */
+  padding: 12px; /* Increased padding for better user interaction */
+  margin-bottom: 20px; /* Maintained spacing */
+  border: 1px solid #cccccc; /* Subtle border color */
+  border-radius: 4px; /* Rounded corners for inputs and textarea */
+  box-sizing: border-box; /* Ensures borders and paddings don't affect the defined width */
+}
+
+/* Adjust the date picker to fit well with the new layout */
+#datepicker-date {
+  width: 100%; /* Full width for consistency */
+}
+
+.ProjectFill .react-datepicker-wrapper {
+  width: 100%; /* Ensures the date picker wrapper fills the container */
+}
+
+.ProjectFill button {
+  background-color: #0056b3; /* A more vibrant button color */
+  color: #ffffff;
+  padding: 12px 20px; /* Increased padding for a larger clickable area */
+  border: none;
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer;
+  font-size: 16px; /* Larger font for better legibility */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.ProjectFill button:hover {
+  background-color: #004095; /* Darker shade on hover for feedback */
+}
+
+/* Improved styling for submit and reset buttons with better spacing */
+.ProjectFill .cancel-save-buttons {
+  display: flex;
+  justify-content: flex-end; /* Aligns buttons to the right for a cleaner look */
+  width: 100%; /* Ensures full width utilization */
+  gap: 10px; /* Adds space between buttons */
+}
+
+.ProjectFill .cancel-button {
+  background-color: #cccccc; /* Neutral color for cancel button */
+  color: #333333;
+}
+
+.ProjectFill .save-button {
+  background-color: #28a745; /* A positive, inviting color for save action */
+  color: white;
+}
+.required-mark {
+  color: red;
+}

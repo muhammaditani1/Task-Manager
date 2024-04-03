@@ -1,0 +1,55 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c; /* Adjusted to match the screenshot */
+  color: #fff; /* Light text for visibility */
+  width: 30%;
+  height: 100vh;
+  padding-top: 20px;
+  padding-left: 20px; /* Padding to match layout */
+}
+
+.add-project-btn {
+  background-color: #333; /* Slightly lighter than the sidebar background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 90%;
+  padding: 10px 15px;
+  margin-bottom: 20px; /* Space after the button */
+}
+
+.add-project-btn:hover {
+  background-color: #474747; /* Lighter background on hover */
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0; /* No padding to align with button */
+}
+
+.project-list li {
+  margin-bottom: 10px;
+}
+
+.project-btn {
+  color: #aaa; /* Light grey color, assuming inactive state */
+  background-color: transparent; /* No background for the list items */
+  padding: 10px 0;
+  width: 90%;
+  text-align: left;
+  padding-left: 5px;
+  border: none;
+}
+
+.project-btn:hover {
+  color: #fff; /* White color on hover for visibility */
+  background-color: #333; /* Background change on hover */
+}
+
+/* Additional class for the active project */
+.active-project {
+  color: #fff;
+  background-color: #333;
+}

@@ -1,0 +1,35 @@
+.emptyDiv {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+  height: 100vh; /* Make the div take up the full viewport height */
+  margin: 0 auto; /* Center the div in case it's narrower than the viewport */
+}
+.emptyDiv img {
+  width: 100px; /* Fixed size */
+  height: 100px; /* Equal to width to ensure a circle */
+  margin-bottom: 20px;
+  border-radius: 50%; /* Create a circle */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+}
+.emptyDiv h1 {
+  color: #5c5a5a;
+  margin-bottom: 2%;
+}
+.emptyDiv h2 {
+  color: #a19d9c;
+  margin-bottom: 2%;
+}
+.emptyDiv button {
+  background-color: #3b2f15;
+  color: #918b89;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 28px;
+}
+.emptyDiv button:hover {
+  cursor: pointer;
+}

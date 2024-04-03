@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This ensures padding does not affect the total width or height of elements */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #100e0c;
+  display: flex;
+  flex-direction: column;
+  background-color: #100e0c;
+  padding-top: 20px;
+  width: 30%; /* Assuming you've made the previous suggested adjustment */
+  height: 100vh; /* This makes the sidebar take up the full viewport height */
+}
+
+.main-side {
+  width: 70%; /* Adjusted from 60% to 70% */
+  /* additional styles for your main content area */
+  
+}
